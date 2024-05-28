@@ -2,15 +2,16 @@
 #Try to answer these before you click RUN!
 
 print("Hello {}, your balance is {}.".format("Cindy", 50))
-
+#hello cindy, your balance is 50  
 print("Hello {0}, your balance is {1}.".format("Cindy", 50))
-
+#hello cindy, your balance is 50 
 print("Hello {name}, your balance is {amount}.".format(name="Cindy", amount=50))
-
+#cindy, 50 
 print("Hello {0}, your balance is {amount}.".format("Cindy", amount=50))
-
+#cindy, 50
 # 2 How would you write this using f-string? (Scroll down for answer)
 
+print (f'hello {Cindy}, your balance is {50}') 
 
 
 
